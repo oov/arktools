@@ -1,7 +1,5 @@
 package main
 
-// env GOOS=linux GOARCH=386 CGO_ENABLED=0 go build -trimpath "-ldflags=-s -w -buildid="
-
 import (
 	"encoding/json"
 	"flag"
