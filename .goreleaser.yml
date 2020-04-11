@@ -4,6 +4,10 @@ before:
     - go mod tidy
 builds:
   - main: .
+    goos:
+      - darwin
+      - linux
+      - windows
     binary: arktools
     ldflags:
       - -s -w
